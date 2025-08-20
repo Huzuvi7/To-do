@@ -39,4 +39,4 @@ A simple Streamlit application that helps you manage your tasks using Snowflake 
 - No data loss between sessions
 - Direct integration with Snowflake's secure platform
 
-The app will prompt you for Snowflake connection details (account, username, password, warehouse, database, and schema) when first run. These credentials are used to establish a secure connection to your Snowflake instance where the tasks are stored.
+The app asks you for Snowflake connection details (account, username, password, warehouse, database, and schema) when first run. These credentials are used to establish a secure connection to your Snowflake instance where the tasks are stored.
