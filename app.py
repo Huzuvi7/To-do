@@ -7,13 +7,13 @@ from snowflake.snowpark.functions import col
 # Snowflake Connection
 # -------------------------
 connection_parameters = {
-    "account": "eyvjdzp-fy53609",       # e.g. abcd-xy12345
-    "user": "AbdulQavi",
-    "password": "Qavi@2003_snow",
-    "role": "ACCOUNTADMIN",
-    "warehouse": "MY_WH",
-    "database": "DUMMY_DB",
-    "schema": "DUMMY_SCHEMA"
+    "account": "",       # e.g. abcd-xy12345
+    "user": "",
+    "password": "",
+    "role": "",
+    "warehouse": "",
+    "database": "",
+    "schema": ""
 }
 
 session = Session.builder.configs(connection_parameters).create()
@@ -74,3 +74,4 @@ completed = df.filter(col("status") == "done").to_pandas()
 
 st.subheader("✅ Completed Tasks")
 st.table(completed)
+
